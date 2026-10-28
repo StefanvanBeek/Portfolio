@@ -1,0 +1,98 @@
+/*Algemene code*/
+body {
+    background-color: #212121;
+    color: white;
+    font-family: Orbitron;;
+}
+
+.font64{
+    font-size: 64px;
+}
+
+.font32{
+    font-size: 32px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+a:hover{
+    color:blue;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+/*Main page*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.Onderwerpen {
+    display: flex;
+    gap: 67px;
+}
+
+.HeroTekst {
+    margin: 220px;
+}
+
+.Mijzelf {
+    display: flex;
+}
+
+.Opleiding {
+    display: flex;
+}
+
+.Wie {
+    padding: 0 100px;
+}
+
+.Wat {
+    margin-top: 400px;
+    margin-left: 420px;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+/*Vaardigheden*/
+.img1 {
+    width: 650px;
+    margin-top: 30px;
+}
+
+.img2{
+    width: 350px;
+}
+
+.HTML {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
