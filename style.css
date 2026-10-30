@@ -40,8 +40,20 @@ a {
     cursor: pointer;
 }
 
+.Logo:hover{
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+}
 
 /*Main page*/
+.Hero {
+    display: flex;
+}
+
+.Hero > img {
+    margin-top: 120px;
+}
 nav {
     display: flex;
     align-items: center;
@@ -71,14 +83,28 @@ nav {
 }
 
 .Wat {
+    margin-left: 900px;
+}
+
+.Waarom {
+    margin-left: 200px;
     margin-top: 400px;
-    margin-left: 420px;
 }
 
 .Footer {
     display: flex;
     justify-content: space-between;
     margin: 50px;
+}
+
+.MijzelfWie {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MijzelfWie > img {
+    margin-right: 100px;
+    margin-top: 100px;
 }
 
 /*Vaardigheden*/
@@ -89,10 +115,42 @@ nav {
 
 .img2{
     width: 350px;
+    margin-bottom: 20px;
 }
 
 .HTML {
     display: flex;
     justify-content: space-between;
     padding: 0 30px;
+}
+
+/*Projecten*/
+.Doel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.GDoel {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.ImgDoel{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ImgDoel > a {
+    text-align: right;
+}
+
+/*Contact*/
+.Gegevens h1{
+    margin-bottom: 200px;
+}
+
+.Contact {
+    margin-bottom: 50px;
 }
