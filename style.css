@@ -49,11 +49,14 @@ a {
 /*Main page*/
 .Hero {
     display: flex;
+    justify-content: space-between;
 }
 
 .Hero > img {
     margin-top: 120px;
+    border-radius: 50px;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -83,12 +86,11 @@ nav {
 }
 
 .Wat {
-    margin-left: 900px;
+    padding: 0 100px;
 }
 
 .Waarom {
-    margin-left: 200px;
-    margin-top: 400px;
+    margin-left: 300px;
 }
 
 .Footer {
@@ -107,15 +109,57 @@ nav {
     margin-top: 100px;
 }
 
+.MijzelfWat {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.MijzelfWat > img {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border-radius: 100px;
+}
+
+.OpleidingWat {
+    display: flex;
+    padding: 50px;
+}
+
+.OpleidingWat > img{
+    border-radius: 50px;
+}
+
+.OpleidingWaarom {
+    display: flex;
+    padding: 100px;
+}
+
+.OpleidingWaarom > img {
+    border-radius: 50px;;
+}
+
 /*Vaardigheden*/
+.HeroV {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeroV > img {
+    margin-right: 100px;
+    margin-top: 150px;
+}
+
 .img1 {
     width: 650px;
     margin-top: 30px;
+    border-radius: 25px;
 }
 
 .img2{
     width: 350px;
     margin-bottom: 20px;
+    border-radius: 25px;
 }
 
 .HTML {
@@ -146,6 +190,11 @@ nav {
     text-align: right;
 }
 
+.img3 {
+    width: 750px;
+    border-radius: 50px;
+}
+
 /*Contact*/
 .Gegevens h1{
     margin-bottom: 200px;
@@ -153,4 +202,5 @@ nav {
 
 .Contact {
     margin-bottom: 50px;
+    padding: 50px;
 }
