@@ -1,4 +1,8 @@
 /*Algemene code*/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #212121;
     color: white;
@@ -291,7 +295,20 @@ nav {
 }
 
 .Contact {
+    display: flex;
+    justify-content: space-between;
     margin-left: 50px;
     margin-bottom: 50px;
     padding: 50px;
+}
+
+.Formulier {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 400px;
+}
+
+input, textarea {
+    width: 100%;
 }
