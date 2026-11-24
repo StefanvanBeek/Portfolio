@@ -60,19 +60,6 @@ a > img:hover {
     height: auto;
 }
 
-@media (max-width: 600px) {
-    .ResponsiveIMG {
-        width: 60px;
-    }
-        #Nav {
-        flex-direction: column;
-    }
-    .Onderwerpen {
-        justify-content: center;
-        gap: 10px;
-    }
-}
-
 /*Main page*/
 .Hero {
     display: flex;
@@ -83,6 +70,15 @@ a > img:hover {
     margin-top: 120px;
     border-radius: 50px;
     margin-right: 75px;
+    height: auto;
+}
+
+.HeroIMG {
+    width: 300px;
+}
+
+.HeroTekst{
+    padding: 150px;
 }
 
 nav {
@@ -95,11 +91,6 @@ nav {
 .Onderwerpen {
     display: flex;
     gap: 67px;
-}
-
-.HeroTekst {
-    margin-left: 100px;
-    margin-top: 150px;
 }
 
 .Mijzelf {
@@ -332,8 +323,10 @@ input, textarea {
     width: 100%;
 }
 
-/*Responsive*/
+/*Responsive Phone*/
 @media (max-width: 600px) {
+
+/*Nav + Hero all pages */
 
     #Nav {
         flex-direction: column;
@@ -351,4 +344,226 @@ input, textarea {
         gap: 15px;
     }
 
-}
+    .Hero {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap:10px;
+        padding: 20px;
+    }
+
+    .HeroIMG {
+        width: 250px;
+        margin-left: 75px;
+    }
+
+    .HeroTekst{
+        padding: 0;
+    }
+
+    .font64 {
+        font-size: 32px;
+    }
+
+    .font24 {
+        font-size: 18px;
+    }
+
+    .Hero > img {
+        width: 250px;
+        margin: 10px;
+    }
+
+    /*Wie ben ik?*/
+    .MijzelfWie{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .Wie{
+        padding: 0;
+    }
+
+    .MijzelfWie > img{
+        width: 300px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .MijzelfWat {
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .Wat{
+        padding: 0;
+    }
+
+    .MijzelfWat > img{
+        width: 300px;
+        height: 200px;
+        margin: 0;
+        border-radius: 30px;
+    }
+
+    /*Mijn opleiding*/
+    .OpleidingWat{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .OpleidingWat > img{
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .OpleidingWaarom{
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Waarom{
+        margin: 0;
+    }
+
+    .OpleidingWaarom > img {
+        width: 300px;
+        height: 250px;
+        margin: 0;
+    }
+
+    /*Footer*/
+    .Footer{
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 20px 10px;
+        gap: 10px;
+    }
+
+    .Footer > a {
+        font-size: 14px;
+    }
+
+    .Trademark{
+        text-align: right;
+    }
+
+    .Trademark > p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    /*HTML*/
+    .HTML{
+        flex-direction: column;
+        padding: 20px;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .HTMLT{
+        margin: 0;
+    }
+
+   .img1 {
+        width: 300px;
+        margin: 0;
+        border-radius: 20px;
+    }
+
+    .img2 {
+        width: 300px;
+        margin: 0;
+        border-radius: 20px;
+    }
+
+    /*Figma*/
+    .Figma {
+        flex-direction: column-reverse;
+        padding: 20px;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .img4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin: 0;
+    }
+
+    .img4 > img {
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .FigmaDesign {
+        margin: 0;
+    }
+
+    /*Git*/
+    .Git{
+        flex-direction: column;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .Github{
+        margin: 0;
+    }
+
+    .img5{
+        margin: 0;
+    }
+
+    .img5 > img {
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .Javascript{
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+        gap: 0px;
+    }
+
+    .Java{
+        padding: 20px 20px 0;
+        margin: 0;
+    }
+    
+    .img6{
+        margin: 0;
+        padding: 0;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .img6 > img{
+        width: 300px;
+        margin: 0;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    }
