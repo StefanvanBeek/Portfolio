@@ -271,18 +271,6 @@ nav {
     margin-left: 100px;
 }
 
-.HeroP {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-}
-
-.HeroP > img {
-    border-radius: 50px;
-}
-
 .ImgDoel{
     padding: 0 20px;
     display: flex;
@@ -474,6 +462,7 @@ input, textarea {
 
     /*HTML*/
     .HTML{
+        text-align: center;
         flex-direction: column;
         padding: 20px;
         margin: 0;
@@ -502,6 +491,7 @@ input, textarea {
         padding: 20px;
         margin: 0;
         gap: 20px;
+        text-align: center;
     }
 
     .img4 {
@@ -526,6 +516,7 @@ input, textarea {
         flex-direction: column;
         padding: 20px;
         margin: 0;
+        text-align: center;
     }
 
     .Github{
@@ -541,11 +532,13 @@ input, textarea {
         border-radius: 20px;
     }
 
+    /*Javascript*/
     .Javascript{
         flex-direction: column-reverse;
         margin: 0;
         padding: 0;
         gap: 0px;
+        text-align: center;
     }
 
     .Java{
@@ -565,5 +558,47 @@ input, textarea {
         margin: 0;
         margin-bottom: 20px;
         border-radius: 20px;
+    }
+
+    /*Projecten*/
+    .Doel{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .GDoel{
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .ImgDoel > img{
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .Linkjes {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    /*Contact*/
+    .Contact{
+        flex-direction: column;
+        padding: 20px;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Gegevens h1{
+        margin-bottom: 20px;
+    }
+
+    .Formulier{
+        width: 300px;
     }
     }
